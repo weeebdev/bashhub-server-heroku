@@ -1,4 +1,4 @@
-FROM golang:1.17
+FROM golang:1.18
 
 RUN GO111MODULE=on go get -u github.com/nicksherron/bashhub-server
 
